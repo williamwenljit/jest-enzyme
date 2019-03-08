@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo List should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList
+    inputValue=""
+    list={
+      Array [
+        Object {
+          "text": "todo item 1",
+        },
+      ]
+    }
+    onInputChange={[Function]}
+    onItemAdd={[Function]}
+    onItemRemove={[Function]}
+    title="todo list 1"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="todo-list__title"
+        >
+          todo list 1
+        </div>,
+        <div
+          className="todo-list__new"
+        >
+          <input
+            className="todo-list__new-input"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <button
+            className="todo-list__new-button"
+            onClick={[Function]}
+            type="button"
+          >
+            新增
+          </button>
+        </div>,
+        <ul
+          className="todo-list__content"
+        >
+          <TodoItem
+            index={0}
+            onItemRemove={[Function]}
+            text="todo item 1"
+          />
+        </ul>,
+      ],
+      "className": "todo-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "todo list 1",
+          "className": "todo-list__title",
+        },
+        "ref": null,
+        "rendered": "todo list 1",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="todo-list__new-input"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />,
+            <button
+              className="todo-list__new-button"
+              onClick={[Function]}
+              type="button"
+            >
+              新增
+            </button>,
+          ],
+          "className": "todo-list__new",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "todo-list__new-input",
+              "onChange": [Function],
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "新增",
+              "className": "todo-list__new-button",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "新增",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TodoItem
+              index={0}
+              onItemRemove={[Function]}
+              text="todo item 1"
+            />,
+          ],
+          "className": "todo-list__content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "index": 0,
+              "onItemRemove": [Function],
+              "text": "todo item 1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="todo-list__title"
+          >
+            todo list 1
+          </div>,
+          <div
+            className="todo-list__new"
+          >
+            <input
+              className="todo-list__new-input"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+            <button
+              className="todo-list__new-button"
+              onClick={[Function]}
+              type="button"
+            >
+              新增
+            </button>
+          </div>,
+          <ul
+            className="todo-list__content"
+          >
+            <TodoItem
+              index={0}
+              onItemRemove={[Function]}
+              text="todo item 1"
+            />
+          </ul>,
+        ],
+        "className": "todo-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "todo list 1",
+            "className": "todo-list__title",
+          },
+          "ref": null,
+          "rendered": "todo list 1",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="todo-list__new-input"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />,
+              <button
+                className="todo-list__new-button"
+                onClick={[Function]}
+                type="button"
+              >
+                新增
+              </button>,
+            ],
+            "className": "todo-list__new",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "todo-list__new-input",
+                "onChange": [Function],
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "新增",
+                "className": "todo-list__new-button",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "新增",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TodoItem
+                index={0}
+                onItemRemove={[Function]}
+                text="todo item 1"
+              />,
+            ],
+            "className": "todo-list__content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "index": 0,
+                "onItemRemove": [Function],
+                "text": "todo item 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
