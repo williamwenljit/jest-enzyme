@@ -1,0 +1,29 @@
+.todo-list {
+	max-width: 350px;
+	border: 1px solid #CCC;
+}
+
+.todo-list__title,
+.todo-list__new,
+.todo-list__content {
+	padding: 10px 20px;
+}
+
+.todo-list__title,
+.todo-list__new {
+	border-bottom: 1px solid #CCC;
+}
+
+.todo-list__new {
+	text-align: right;
+}
+.todo-list__new-input,
+.todo-list__new-button {
+	padding: 2px 8px;
+}
+
+.todo-list__content {
+	min-height: 200px;
+	margin: 0;
+	list-style: none;
+}
